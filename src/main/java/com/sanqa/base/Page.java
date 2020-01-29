@@ -8,11 +8,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Page {
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 	
 	public Page()
 		{
-				
+			if(driver==null)
+			{
 		//System.setProperty("webdriver.gecko.driver", "F:\\PageObjectModel\\src\\test\\resources\\com\\sanqa\\drivers\\geckodriver.exe");
 		//driver= new FirefoxDriver();
 		System.setProperty("webdriver.chrome.driver", "F:\\PageObjectModel\\src\\test\\resources\\com\\sanqa\\drivers\\chromedriver.exe");
@@ -21,6 +22,7 @@ public class Page {
 		driver.manage().deleteAllCookies();
 		//Thread.sleep(20000);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			}
 		
 		}
 
