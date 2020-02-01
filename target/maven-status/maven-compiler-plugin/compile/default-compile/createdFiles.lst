@@ -1,0 +1,4 @@
+com\sanqa\pages\HomePage.class
+com\sanqa\pages\ZohoAppPage.class
+com\sanqa\pages\LoginPage.class
+com\sanqa\base\Page.class

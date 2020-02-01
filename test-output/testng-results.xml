@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28312" started-at="2020-01-30T09:40:49 IST" finished-at="2020-01-30T09:41:17 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28312" started-at="2020-01-30T09:40:49 IST" finished-at="2020-01-30T09:41:17 IST">
+      <class name="com.sanqa.rough.Testnew">
+        <test-method status="PASS" signature="zoho()[pri:0, instance:com.sanqa.rough.Testnew@1855c9a]" name="zoho" duration-ms="28149" started-at="2020-01-30T09:40:49 IST" finished-at="2020-01-30T09:41:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zoho -->
+      </class> <!-- com.sanqa.rough.Testnew -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
